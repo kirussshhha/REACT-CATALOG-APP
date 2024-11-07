@@ -33,13 +33,13 @@
   ._alive {
     @extend .user-status;
     color: rgb(7, 113, 7);
-    background-color: rgb(84, 181, 84);
+    background-color: rgb(114, 221, 114);
   }
 
   ._deceased {
     @extend .user-status;
     color: rgb(199, 0, 0);
-    background-color: rgba(249, 93, 93, 0.773);
+    background-color: rgba(250, 117, 117, 0.773);
   }
 
   .username {
