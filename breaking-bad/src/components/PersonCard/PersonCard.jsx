@@ -1,12 +1,13 @@
-import "./PersonCard.scss";
 import { useNavigate } from "react-router-dom";
+import PersonStatus from "../PersonStatus/PersonStatus";
+import "./PersonCard.scss";
 
 function PersonCard({ name, birthday, img, status, id }) {
   const navigate = useNavigate();
 
   const getUrlOnClick = (id) => {
-    navigate(`/details/${id}`)
-  }
+    navigate(`/details/${id}`);
+  };
 
   return (
     <li className="card" onClick={() => getUrlOnClick(id)}>
@@ -14,7 +15,7 @@ function PersonCard({ name, birthday, img, status, id }) {
         <img className="user-img" src={img} alt="изображение персонажа" />
       </div>
       <div className="card-inf">
-        <p className={status === "Alive" ? "_alive" : "_deceased"}>{status}</p>
+        <PersonStatus status={status} />
         <p className="username">{name}</p>
         <p className="user-birthday">{birthday}</p>
       </div>

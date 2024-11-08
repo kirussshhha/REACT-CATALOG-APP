@@ -1,0 +1,20 @@
+.back-btn {
+  position: relative;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16%;
+    transform: translateY(-50%);
+    border: solid #fdde47;
+    border-width: 0 3px 3px 0;
+    padding: 5px;
+    transform: rotate(135deg);
+  }
+}

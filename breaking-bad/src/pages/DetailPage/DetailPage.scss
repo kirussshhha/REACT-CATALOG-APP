@@ -1,0 +1,63 @@
+.not-found {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .not-found-title {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #3c3c3c;
+  }
+}
+
+.detail {
+  width: 1100px;
+  margin: 40px auto;
+
+  .detail__container {
+    margin-top: 40px;
+    display: flex;
+
+    .person-image {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .detail-content {
+      margin-left: 100px;
+
+      .person-name {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #3c3c3c;
+      }
+
+      .prop-title {
+        color: #939393;
+      }
+
+      .person-inf {
+        font-size: 17px;
+        font-weight: 500;
+        color: #3c3c3c;
+      }
+
+      .person-birthday {
+        @extend .person-inf;
+        padding-bottom: 15px;
+      }
+
+      .person-nickname {
+        @extend .person-inf;
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
