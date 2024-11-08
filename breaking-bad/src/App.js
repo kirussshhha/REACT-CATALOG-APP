@@ -1,10 +1,10 @@
-import './App.scss';
-import CardList from './components/CardList/CardList';
+import "./styles/App.scss";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <div className="App">
-      <CardList />
+      <AppRoutes />
     </div>
   );
 }

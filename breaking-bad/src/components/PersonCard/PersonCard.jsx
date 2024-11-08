@@ -1,8 +1,15 @@
 import "./PersonCard.scss";
+import { useNavigate } from "react-router-dom";
 
-function PersonCard({ name, birthday, img, status }) {
+function PersonCard({ name, birthday, img, status, id }) {
+  const navigate = useNavigate();
+
+  const getUrlOnClick = (id) => {
+    navigate(`/details/${id}`)
+  }
+
   return (
-    <li className="card">
+    <li className="card" onClick={() => getUrlOnClick(id)}>
       <div className="card-img">
         <img className="user-img" src={img} alt="изображение персонажа" />
       </div>

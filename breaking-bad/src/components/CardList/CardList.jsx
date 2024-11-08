@@ -10,6 +10,7 @@ function CardList() {
       {cards.map((card) => (
         <PersonCard
           key={card.id}
+          id={card.id}
           name={card.name}
           birthday={card.birthday}
           img={card.img}
