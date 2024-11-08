@@ -1,4 +1,6 @@
-.card-list{
-    display: flex;
-    flex-wrap: wrap;
+.card-list {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
