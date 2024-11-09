@@ -1,10 +1,7 @@
-import { useSelector } from "react-redux";
 import "./PersonsList.scss";
 import Person from "../Person/Person";
 
-function PersonsList() {
-  const persons = useSelector((state) => state.cards);
-
+function PersonsList({ persons }) {
   return (
     <div>
       <h1 className="title">Список персонажей</h1>

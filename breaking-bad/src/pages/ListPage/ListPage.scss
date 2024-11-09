@@ -1,11 +1,16 @@
-.toggle-list {
+.list-controls {
   display: flex;
   justify-content: end;
+  align-items: center;
   max-width: 1185px;
-  margin: 25px auto;
+  margin: 35px auto;
 
-  .prop-name {
-    font-size: 18px;
-    color: #333333;
+  .view-toggle {
+    display: flex;
+
+    .prop-name {
+      font-size: 18px;
+      color: #333333;
+    }
   }
 }

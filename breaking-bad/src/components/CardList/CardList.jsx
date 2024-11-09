@@ -1,22 +1,19 @@
-import { useSelector } from "react-redux";
 import "./CardList.scss";
 import PersonCard from "../PersonCard/PersonCard";
 
-function CardList() {
-  const cards = useSelector((state) => state.cards);
-
+function CardList({ persons }) {
   return (
     <div>
       <h1 className="title">Доска персонажей</h1>
       <ul className="card-list">
-        {cards.map((card) => (
+        {persons.map((person) => (
           <PersonCard
-            key={card.id}
-            id={card.id}
-            name={card.name}
-            birthday={card.birthday}
-            img={card.img}
-            status={card.status}
+            key={person.id}
+            id={person.id}
+            name={person.name}
+            birthday={person.birthday}
+            img={person.img}
+            status={person.status}
           />
         ))}
       </ul>
