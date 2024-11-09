@@ -1,0 +1,11 @@
+.toggle-list {
+  display: flex;
+  justify-content: end;
+  max-width: 1185px;
+  margin: 25px auto;
+
+  .prop-name {
+    font-size: 18px;
+    color: #333333;
+  }
+}

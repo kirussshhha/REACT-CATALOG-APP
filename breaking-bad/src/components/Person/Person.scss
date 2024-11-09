@@ -1,0 +1,19 @@
+.person__container {
+  width: 600px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  .person-name {
+    width: 200px;
+    font-size: 18px;
+    color: #333333;
+  }
+
+  .person-birthday {
+    width: 100px;
+    font-size: 18px;
+    color: #333333;
+  }
+}
