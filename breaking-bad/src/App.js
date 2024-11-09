@@ -1,6 +1,7 @@
 import "./styles/App.scss";
 import AppRoutes from "./routes/AppRoutes";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <AppRoutes />
       </main>
+      <Footer />
     </div>
   );
 }

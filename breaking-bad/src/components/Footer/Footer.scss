@@ -1,0 +1,12 @@
+.footer__container {
+  height: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .copyright {
+    font-size: 18px;
+    color: #333333;
+  }
+}
