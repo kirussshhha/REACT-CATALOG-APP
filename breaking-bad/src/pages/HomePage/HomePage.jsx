@@ -2,8 +2,8 @@ import "./HomePage.scss";
 
 function HomePage() {
   return (
-    <div>
-      <h1>Главная страница</h1>
+    <div className="main-img">
+      <img className="background-img" loading="lazy" src="/breakingBad-background.webp" alt="изображние фона" />
     </div>
   );
 }
