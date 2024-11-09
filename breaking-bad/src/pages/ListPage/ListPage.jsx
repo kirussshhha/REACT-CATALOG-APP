@@ -35,7 +35,11 @@ function ListPage() {
         </div>
       </div>
 
-      {isCardView ? (
+      {filteredPerson.length === 0 ? (
+        <div className="not-found">
+          <h1 className="not-found-title">Персонаж не найден</h1>
+        </div>
+      ) : isCardView ? (
         <PersonsList persons={filteredPerson} />
       ) : (
         <CardList persons={filteredPerson} />
