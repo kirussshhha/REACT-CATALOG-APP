@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REACT-CATALOG-APP/static/css/main.bc0fc7a8.css",
+    "main.js": "/REACT-CATALOG-APP/static/js/main.76589c83.js",
+    "index.html": "/REACT-CATALOG-APP/index.html",
+    "main.bc0fc7a8.css.map": "/REACT-CATALOG-APP/static/css/main.bc0fc7a8.css.map",
+    "main.76589c83.js.map": "/REACT-CATALOG-APP/static/js/main.76589c83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0fc7a8.css",
+    "static/js/main.76589c83.js"
+  ]
+}
